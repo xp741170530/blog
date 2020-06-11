@@ -1,0 +1,8 @@
+2020-06-11 11:24:19.508  INFO 4760 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-9HSLOVH with PID 4760 (E:\BLOG\myblog-mybatis-master\target\classes started by 741170530 in E:\BLOG\myblog-mybatis-master)
+2020-06-11 11:24:19.524  INFO 4760 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-06-11 11:24:23.562  INFO 4760 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 5.713 seconds (JVM running for 11.457)
+2020-06-11 11:24:54.435  INFO 4760 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-11 11:24:54.984  INFO 4760 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2020-06-11 11:24:55.736  INFO 4760 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-11 11:24:55.749  INFO 4760 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-11 11:25:02.105  WARN 4760 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,470] milliseconds.
