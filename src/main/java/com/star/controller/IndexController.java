@@ -21,13 +21,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import java.util.List;
 
 
-/**
- * @Description: 首页控制器
- * @Author: ONESTAR
- * @Date: Created in 13:59 2020/3/25
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+//首页控制器
+
 @Controller
 public class IndexController {
 

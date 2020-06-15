@@ -3,13 +3,8 @@ package com.star.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @Description: 分类实体类
- * @Author: ONESTAR
- * @Date: Created in 9:06 2020/3/26
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+// 分类实体类
+
 public class Type {
 
     private Long id;

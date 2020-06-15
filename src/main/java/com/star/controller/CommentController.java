@@ -18,13 +18,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
-/**
- * @Description: 评论控制器
- * @Author: ONESTAR
- * @Date: Created in 17:16 2020/4/5
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+// 评论控制器
+
 @Controller
 public class CommentController {
 

@@ -3,22 +3,16 @@ package com.star.util;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * @Description: MD5加密工具类
- * @Author: ONESTAR
- * @Date: Created in 10:34 2020/3/27
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+//MD5加密工具类
+
 public class MD5Utils {
 
-    /**
-     * @Description: MD5加密
-     * @Auther: ONESTAR
-     * @Date: 10:35 2020/3/27
-     * @Param: 要加密的字符串
-     * @Return: 加密后的字符串
-     */
+
+     // MD5加密
+
+     // 要加密的字符串
+     // 加密后的字符串
+
     public static String code(String str){
         try {
             MessageDigest md = MessageDigest.getInstance("MD5");

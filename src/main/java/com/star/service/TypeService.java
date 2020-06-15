@@ -6,13 +6,8 @@ import com.star.queryvo.FirstPageBlog;
 import java.util.List;
 
 
-/**
- * @Description: 文章分类业务层接口
- * @Author: ONESTAR
- * @Date: Created in 14:32 2020/3/27
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+//文章分类业务层接口
+
 public interface TypeService {
 
     int saveType(Type type);

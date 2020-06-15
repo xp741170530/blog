@@ -14,20 +14,12 @@ import org.commonmark.renderer.html.HtmlRenderer;
 
 import java.util.*;
 
-/**
- * @Description: Markdown编辑器
- * @Author: ONESTAR
- * @Date: Created in 13:24 2020/4/5
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+//Markdown编辑器
+
 public class MarkdownUtils {
 
-    /**
-     * markdown格式转换成HTML格式
-     * @param markdown
-     * @return
-     */
+    //格式转换成HTML格式
+
     public static String markdownToHtml(String markdown) {
         Parser parser = Parser.builder().build();
         Node document = parser.parse(markdown);
@@ -35,12 +27,9 @@ public class MarkdownUtils {
         return renderer.render(document);
     }
 
-    /**
-     * 增加扩展[标题锚点，表格生成]
-     * Markdown转换成HTML
-     * @param markdown
-     * @return
-     */
+   // 增加扩展[标题锚点，表格生成]
+
+
     public static String markdownToHtmlExtensions(String markdown) {
         //h标题生成id
         Set<Extension> headingAnchorExtensions = Collections.singleton(HeadingAnchorExtension.create());

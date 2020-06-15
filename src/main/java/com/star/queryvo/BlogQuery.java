@@ -4,13 +4,8 @@ import com.star.entity.Type;
 
 import java.util.Date;
 
-/**
- * @Description: 显示数据实体类
- * @Author: ONESTAR
- * @Date: Created in 15:20 2020/3/31
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+//显示数据实体类
+
 public class BlogQuery {
 
     private Long id;

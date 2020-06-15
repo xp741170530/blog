@@ -15,13 +15,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * @Description: 分类管理控制器
- * @Author: ONESTAR
- * @Date: Created in 17:00 2020/3/27
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+// 分类管理控制器
+
 @Controller
 @RequestMapping("/admin")
 public class TypeController {

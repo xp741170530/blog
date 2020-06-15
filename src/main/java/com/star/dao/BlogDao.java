@@ -7,13 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * @Description: 博客持久层接口
- * @Author: ONESTAR
- * @Date: Created in 23:37 2020/3/30
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+// 博客持久层接口
+
 @Mapper
 @Repository
 public interface BlogDao {

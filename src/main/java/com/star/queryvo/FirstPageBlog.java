@@ -2,13 +2,8 @@ package com.star.queryvo;
 
 import java.util.Date;
 
-/**
- * @Description: 博客首页数据实体类
- * @Author: ONESTAR
- * @Date: Created in 9:09 2020/4/3
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+//博客首页数据实体类
+
 public class FirstPageBlog {
 
     //Blog

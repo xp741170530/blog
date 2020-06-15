@@ -1,0 +1,42 @@
+2020-06-13 11:07:47.312  INFO 1308 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-9HSLOVH with PID 1308 (started by 741170530 in E:\我的博客网站设计\myblog)
+2020-06-13 11:07:47.322  INFO 1308 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-06-13 11:07:50.245  INFO 1308 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.477 seconds (JVM running for 6.085)
+2020-06-13 11:08:02.003  INFO 1308 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-13 11:08:02.246  INFO 1308 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2020-06-13 11:08:07.301  INFO 1308 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-13 11:08:07.315  INFO 1308 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-13 18:41:24.657  INFO 19924 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-9HSLOVH with PID 19924 (started by 741170530 in E:\我的博客网站设计\myblog)
+2020-06-13 18:41:24.663  INFO 19924 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-06-13 18:41:28.459 ERROR 19924 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-06-13 18:41:55.098  INFO 20456 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-9HSLOVH with PID 20456 (started by 741170530 in E:\我的博客网站设计\myblog)
+2020-06-13 18:41:55.101  INFO 20456 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-06-13 18:41:57.859  INFO 20456 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.316 seconds (JVM running for 5.801)
+2020-06-13 18:42:04.537  INFO 20456 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/', ip='192.168.220.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-13 18:42:04.880  INFO 20456 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2020-06-13 18:42:05.993  INFO 20456 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/footer/blogmessage', ip='192.168.220.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-13 18:42:06.009  INFO 20456 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-13 18:42:20.540  INFO 20456 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/', ip='192.168.220.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-13 18:42:20.556  INFO 20456 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index
+2020-06-13 18:42:21.197  INFO 20456 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/', ip='192.168.220.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-13 18:42:21.209  INFO 20456 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : index
+2020-06-13 18:42:28.625  INFO 20456 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/', ip='192.168.220.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-13 18:42:28.638  INFO 20456 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index
+2020-06-13 18:42:29.633  INFO 20456 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/footer/blogmessage', ip='192.168.220.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-13 18:42:29.659  INFO 20456 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-13 18:42:50.337  INFO 20456 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/', ip='192.168.220.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-13 18:42:50.359  INFO 20456 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index
+2020-06-13 18:42:51.231  INFO 20456 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://8ke6ix.natappfree.cc/footer/blogmessage', ip='192.168.220.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-13 18:42:51.241  INFO 20456 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index :: blogMessage

@@ -104,7 +104,7 @@
 
 <!--最新推荐-->
 <div class="ui m-padded-tb-large">
-    <div class="ui m-container-small m-opacity">
+    <div class="ui m-container-small m-opacity" align="center">
         <div class="ui secondary segment " align="center">
             <i class="bookmark icon"></i>最新推荐
         </div>
@@ -129,7 +129,7 @@
         <div class="ui stackable grid">
             <!--博客内容-->
             <div class="ui vertical segment">
-                <div class="ui m-container-small m-opacity">
+                <div class="ui m-container-small m-opacity" align="center">
                     <div class="ui secondary segment  " align="center" style="margin: auto">
                         <i class="bookmark icon"></i>最新文章
                     </div>
@@ -175,7 +175,7 @@
                 </div>
             </div>
             <!--分页-->
-            <div class="ui bottom attached segment m-opacity stackable grid">
+            <div class="ui bottom attached segment  m-opacity stackable grid" align="center">
                 <div class="three wide column" align="center">
                     <a class="item" th:href="@{/(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}" th:unless="${pageInfo.isFirstPage}">上一页</a>
                 </div>

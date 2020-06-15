@@ -1,0 +1,59 @@
+2020-06-12 12:32:37.494  INFO 5068 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-9HSLOVH with PID 5068 (E:\BLOG\myblog\target\classes started by 741170530 in E:\BLOG\myblog)
+2020-06-12 12:32:37.504  INFO 5068 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-06-12 12:32:40.989  INFO 5068 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 4.157 seconds (JVM running for 7.034)
+2020-06-12 12:32:53.874  INFO 5068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:32:54.177  INFO 5068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:32:54.894  INFO 5068 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:32:54.900  INFO 5068 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:33:28.205  WARN 5068 --- [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,428] milliseconds.
+2020-06-12 12:33:28.205  WARN 5068 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,419] milliseconds.
+2020-06-12 12:33:41.041  WARN 5068 --- [http-nio-8080-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-06-12 12:33:55.049  INFO 5068 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:33:55.057  INFO 5068 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:33:59.712  INFO 5068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:33:59.725  INFO 5068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:34:30.158  INFO 5068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:34:30.167  INFO 5068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:34:52.686  WARN 5068 --- [http-nio-8080-exec-3] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-06-12 12:34:55.986  INFO 5068 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:34:55.993  INFO 5068 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:34:56.650  INFO 5068 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:34:56.658  INFO 5068 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:35:33.181  WARN 5068 --- [http-nio-8080-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-06-12 12:35:35.525  INFO 5068 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:35:35.533  INFO 5068 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:35:36.031  INFO 5068 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:35:36.037  INFO 5068 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:36:02.674  WARN 5068 --- [http-nio-8080-exec-6] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-06-12 12:36:05.197  INFO 5068 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:36:05.204  INFO 5068 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:36:05.666  INFO 5068 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:36:05.678  INFO 5068 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:45:54.006  WARN 5068 --- [http-nio-8080-exec-5] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-06-12 12:46:12.478  WARN 5068 --- [http-nio-8080-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-06-12 12:46:16.056  INFO 5068 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:46:16.064  INFO 5068 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:46:16.754  INFO 5068 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:46:16.761  INFO 5068 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:53:30.655  INFO 22260 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-9HSLOVH with PID 22260 (E:\BLOG\myblog\target\classes started by 741170530 in E:\BLOG\myblog)
+2020-06-12 12:53:30.658  INFO 22260 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-06-12 12:53:33.866  INFO 22260 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.895 seconds (JVM running for 7.042)
+2020-06-12 12:53:46.487  INFO 22260 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:53:46.826  INFO 22260 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:53:47.759  INFO 22260 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:53:47.775  INFO 22260 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:53:58.992  INFO 22260 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:53:59.005  INFO 22260 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:53:59.515  INFO 22260 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:53:59.529  INFO 22260 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:57:12.315  INFO 22260 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2020-06-12 12:57:12.327  INFO 22260 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index
+2020-06-12 12:57:12.985  INFO 22260 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:57:13.017  INFO 22260 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 12:57:19.875  INFO 22260 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/blog/1', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blog', args=[1, {}]}
+2020-06-12 12:57:19.959  INFO 22260 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog
+2020-06-12 12:57:24.622  INFO 22260 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/blog/2', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blog', args=[2, {}]}
+2020-06-12 12:57:24.653  INFO 22260 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog
+2020-06-12 12:57:25.670  INFO 22260 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2020-06-12 12:57:25.687  INFO 22260 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2020-06-12 15:22:38.190  WARN 22260 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h54m21s293ms683µs200ns).
